@@ -1,0 +1,21 @@
+.MuiSlider-root {
+    color: #b22020;
+  }
+  
+  .MuiSlider-root:hover {
+    color: #ffd900;
+  }
+
+  
+.slider {
+    color: #90b2aa;
+  }
+  
+  .slider:hover {
+    color: #2e8b57;
+  }
+
+  .slider .MuiSlider-thumb {
+    border-radius: 1px;
+  }
+  

@@ -1,6 +1,7 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
+import './components/Slider/Slider.css'
 import App from './App';
 import {ThemeGlobalProvider} from './ThemeProvider/ThemeProvider'
 

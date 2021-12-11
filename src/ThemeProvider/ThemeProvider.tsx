@@ -67,6 +67,13 @@ export const ThemeGlobalProvider:React.FC = (props) => {
 
           darkBackground:'linear-gradient(7deg, rgba(184,62,62,0.8267682072829132) 33%, rgba(207,219,62,0.7371323529411764) 41%, rgba(46,170,17,0.7875525210084033) 58%, rgba(77,192,195,0.773546918767507) 63%, rgba(112,84,254,0.7847514005602241) 69%, rgba(168,78,213,0.865983893557423) 72%, rgba(6,160,161,0.835171568627451) 94%)',
           nocturnalDark:'linear-gradient(163deg, rgba(0,0,0,0.8267682072829132) 28%, rgba(84,84,84,0.9640231092436975) 65%, rgba(136,136,136,0.9108018207282913) 100%)'
+        },
+        typography:{
+          h3:{
+            fontSize:'1.2rem',
+            '@media (min-width:600px)':{fontSize:'2.4rem'}
+           
+          }
         }
       });
   console.log("inside:")
