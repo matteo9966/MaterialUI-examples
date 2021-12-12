@@ -1,4 +1,4 @@
-#How it works
+# How it works
 
 Each branch in this project shows some examples on some of MUI features.
 
