@@ -1,17 +1,19 @@
 import * as React from "react";
 import "./App.css";
+import { NestedSlider } from "./components/nestedSlider/NestedSlider";
 import PlainCssSlider from "./components/Slider/Slider";
 import { SxSlider } from "./components/SxSlider/Slider";
-import { StyledEngineProvider } from '@mui/material/styles';
+
 function App() {
 
 
   return (
     <>
-    <StyledEngineProvider injectFirst>
+    
      <PlainCssSlider></PlainCssSlider>
-    </StyledEngineProvider>
-     <SxSlider></SxSlider>
+      <SxSlider></SxSlider>
+      <NestedSlider></NestedSlider>
+     
  
     </>
   );
